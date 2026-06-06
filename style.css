@@ -44,3 +44,16 @@ footer{
     text-align:center;
     padding:20px;
 }
+.hero{
+  height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+             url('banner.jpg');
+  background-size:cover;
+  background-position:center;
+}
